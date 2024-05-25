@@ -319,6 +319,14 @@ html {
   line-height: 23.4px;
 }
 
+.main-grid-title-decor {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .text-decor {
   line-height: 23.4px;
   letter-spacing: 1.2px;
