@@ -9,4 +9,88 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff8dcb;
+  --bg-color: #353430;
+
+  --font-text-color: #353430;
+  --font-headers-color: #353430;
+  --font-header-color: #ffc2e6;
+
+  --main-font: "IBM Plex mono", sans-serif;
+
+  background: url(../images/cover-image-light.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.theme_light .main-grid-title {
+  color: var(--bg-color);
+}
+
+.theme_light .rec_pseudo::before {
+  content: "";
+}
+
+.theme_light .rec_pseudo::after {
+  width: 0;
+  height: 0;
+  box-shadow: none;
+}
+
+.theme_light .decorated-zone::before {
+  border-top: 1px solid var(--bg-color);
+  border-right: 1px solid var(--bg-color);
+}
+
+.theme_light .decorated-zone::after {
+  border-bottom: 1px solid var(--bg-color);
+  border-left: 1px solid var(--bg-color);
+}
+
+.theme_light .footer::before {
+  border-top: 1px solid var(--bg-color);
+  border-right: 1px solid var(--bg-color);
+}
+
+.theme_light .footer::after {
+  border-bottom: 1px solid var(--bg-color);
+  border-left: 1px solid var(--bg-color);
+}
+
+.theme_light .header__theme-menu-button {
+  color: var(--bg-color);
+}
+
+.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid var(--bg-color);
+}
+
+.theme_light .link-decor {
+  text-shadow: 2px 2px 0px var(--font-header-color);
+  outline: 0 solid var(--font-header-color);
+}
+
+.theme_light .link-decor:hover {
+  border-bottom: 1px solid var(--bg-color);
+}
+
+.theme_light .link-decor:focus,
+.link-decor:focus-visible {
+  outline: 1px solid var(--bg-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем переменные светлой темы */
+
+    --accent-color: #ff8dcb;
+    --bg-color: #353430;
+
+    --font-text-color: #353430;
+    --font-text-headers-color: #353430;
+    --font-header-color: #ffc2e6;
+
+    --main-font: "IBM Plex mono", sans-serif;
+  }
 }
