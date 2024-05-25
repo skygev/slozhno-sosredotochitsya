@@ -11,13 +11,14 @@ html {
   max-width: 1024px;
   min-height: 768px;
   height: inherit;
-  color: var(--font-text-color, #f1b2ce);
-  font-family: var(--main-font, sans-serif);
-  background-color: var(--bg-color, #f3efec);
-  background: url(../images/cover-image-dark.png);
+  color: var(--font-text-color);
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+  background: var(--background-image);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   flex-direction: column;
 }

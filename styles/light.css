@@ -17,11 +17,7 @@
   --font-header-color: #ffc2e6;
 
   --main-font: "IBM Plex mono", sans-serif;
-
-  background: url(../images/cover-image-light.png);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  --background-image: url(../images/cover-image-light.png);
 }
 
 .theme_light .main-grid-title {
@@ -29,13 +25,11 @@
 }
 
 .theme_light .rec_pseudo::before {
-  content: "";
+  visibility: hidden;
 }
 
 .theme_light .rec_pseudo::after {
-  width: 0;
-  height: 0;
-  box-shadow: none;
+  visibility: hidden;
 }
 
 .theme_light .decorated-zone::before {
@@ -68,7 +62,6 @@
 
 .theme_light .link-decor {
   text-shadow: 2px 2px 0px var(--font-header-color);
-  outline: 0 solid var(--font-header-color);
 }
 
 .theme_light .link-decor:hover {
@@ -92,5 +85,6 @@
     --font-header-color: #ffc2e6;
 
     --main-font: "IBM Plex mono", sans-serif;
+    --background-image: url(../images/cover-image-light.png);
   }
 }
