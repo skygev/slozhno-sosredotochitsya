@@ -63,7 +63,7 @@ html {
   font-weight: 400;
   line-height: 18px;
   background-color: transparent;
-  padding: 0px;
+/*   padding: 0px; */
   border: none;
   padding: 2px 13px 4px;
   align-self: center;
@@ -88,7 +88,7 @@ html {
   color: var(--font-header-color);
   text-shadow: 4px 4px 0px #ff0070;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  font-weight: 700;
+/*   font-weight: 700; */
   font-weight: bold;
   text-align: left;
 }
@@ -414,6 +414,7 @@ html {
     max-width: 375px;
     min-height: 668px;
     padding: 10px;
+    margin-bottom: 40px;
   }
 
   .header__theme-menu {
@@ -428,6 +429,7 @@ html {
 
   .header__main_text {
     margin-inline-start: auto;
+    padding-bottom: 0;
   }
 
   .footer::before {
@@ -482,6 +484,7 @@ html {
 
   .main-content__pictures-section_title {
     padding-inline-end: 0;
+    margin-bottom: 10px;
   }
 
   .main-content__pictures-section-pics {
@@ -495,16 +498,3 @@ html {
     max-width: 375px;
     min-height: 658px;
   }
-
-  .header {
-    margin-bottom: 40px;
-  }
-
-  .header__main_text {
-    padding-bottom: 0;
-  }
-
-  .main-content__pictures-section_title {
-    margin-bottom: 10px;
-  }
-}
