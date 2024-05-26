@@ -8,8 +8,8 @@ html {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: flex; /* выравнивание страницы по центру */
   margin: 10;
-/*   max-width: 1024px;
-  min-height: 768px; */
+  max-width: 1024px;
+  min-height: 768px;
   height: inherit;
   color: var(--font-text-color);
   font-family: var(--main-font);
@@ -18,8 +18,7 @@ html {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-/*   background-repeat: no-repeat; */
-/*   width: 100%; */
+  width: 100%;
   flex-direction: column;
 }
 
@@ -58,7 +57,7 @@ html {
 
 .header__theme-menu-button {
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--header__theme-menu-button-color);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -71,7 +70,7 @@ html {
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--button-hover-color);
   cursor: pointer;
 }
 
@@ -119,7 +118,7 @@ html {
   content: "rec";
   top: 20px;
   right: 48px;
-  color: var(--accent-color);
+  color: var(--rec_pseudo-color);
   font-family: var(--main-font);
   font-size: 18px;
   font-style: normal;
@@ -135,7 +134,7 @@ html {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: var(--accent-color);
+  background-color: var(--rec_pseudo-color);
   box-shadow: 0 0 4px 3px var(--accent-color);
 }
 
@@ -144,8 +143,8 @@ html {
   content: "";
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--rec_pseudo-color);
+  border-right: 1px solid var(--rec_pseudo-color);
   top: 20px;
   right: 20px;
 }
@@ -155,8 +154,8 @@ html {
   content: "";
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--rec_pseudo-color);
+  border-left: 1px solid var(--rec_pseudo-color);
   left: 20px;
   bottom: 20px;
 }
@@ -290,7 +289,7 @@ html {
 }
 
 .main-grid-title {
-  color: var(--accent-color);
+  color: var(--main-grid-title-decor-color);
   font-family: var(--main-font);
   font-size: 18px;
   font-style: normal;
@@ -330,8 +329,8 @@ html {
   content: "";
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--rec_pseudo-color);
+  border-right: 1px solid var(--rec_pseudo-color);
   top: 8px;
   right: 20px;
 }
@@ -341,8 +340,8 @@ html {
   content: "";
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--rec_pseudo-color);
+  border-left: 1px solid var(--rec_pseudo-color);
   bottom: 8px;
   left: 20px;
 }

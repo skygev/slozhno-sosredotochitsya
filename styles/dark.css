@@ -11,12 +11,14 @@
   */
   --accent-color: #ff0070;
   --bg-color: #000028;
-
   --font-text-color: #f1b2ce;
   --font-headers-color: #3a3a49;
   --font-header-color: #db00ff;
-/*   background-image: url(../images/cover-image-dark.png);
- */  --main-font: "IBM Plex mono", sans-serif;
+  --main-font: "IBM Plex mono", sans-serif;
+  --button-hover-color: #ff0070;
+  --main-grid-title-decor-color: #ff0070;
+  --header__theme-menu-button-color: #ff0070;
+  --rec_pseudo-color: #ff0070;
 }
 
 .theme_dark.page {
@@ -24,13 +26,9 @@
 }
 
 .theme_dark .rec_pseudo::before {
-  visibility: visible ;
+  visibility: visible;
 }
 
 .theme_dark .rec_pseudo::after {
   visibility: visible;
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  outline: 1px solid var(--bg-color);
 }
