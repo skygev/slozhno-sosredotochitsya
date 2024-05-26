@@ -16,12 +16,13 @@
   --font-header-color: #ffc2e6;
   --main-grid-title-decor-color: #353430;
   --header__theme-menu-button-color: #353430;
-  --rec_pseudo-color: #353430; 
+  --rec_pseudo-color: #353430;
 }
 
 .theme_light .page {
   background-image: url(../images/cover-image-light.png);
 }
+
 .theme_light .rec_pseudo::before {
   visibility: hidden;
 }
@@ -42,7 +43,7 @@
     --button-hover-color: #353430;
     --main-grid-title-decor-color: #353430;
     --header__theme-menu-button-color: #353430;
-    --rec_pseudo-color: #353430; 
+    --rec_pseudo-color: #353430;
   }
 
   .page {
@@ -55,6 +56,4 @@
   .rec_pseudo::after {
     visibility: hidden;
   }
-  
-
 }
