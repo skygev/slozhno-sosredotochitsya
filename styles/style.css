@@ -63,7 +63,7 @@ html {
   font-weight: 400;
   line-height: 18px;
   background-color: transparent;
-/*   padding: 0px; */
+  /*   padding: 0px; */
   border: none;
   padding: 2px 13px 4px;
   align-self: center;
@@ -88,7 +88,7 @@ html {
   color: var(--font-header-color);
   text-shadow: 4px 4px 0px #ff0070;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-/*   font-weight: 700; */
+  /*   font-weight: 700; */
   font-weight: bold;
   text-align: left;
 }
@@ -197,7 +197,7 @@ html {
 }
 
 .column-section_title_swap {
-  padding-right: 70%;
+  padding-right: 65%;
 }
 
 .main-content__row-section {
@@ -400,6 +400,10 @@ html {
   .footer::after {
     bottom: 16px;
   }
+
+  .column-section_title_swap {
+    padding-right: 70%;
+  }
 }
 
 /* на 375px сайт будет перестраиваться на след ступень*/
@@ -498,3 +502,4 @@ html {
     max-width: 375px;
     min-height: 658px;
   }
+}
