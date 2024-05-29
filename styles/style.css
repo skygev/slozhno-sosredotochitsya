@@ -3,7 +3,6 @@ html {
   height: 100%;
 }
 
-
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: flex; /* выравнивание страницы по центру */
@@ -78,7 +77,6 @@ html {
   color: var(--font-header-color);
   text-shadow: 4px 4px 0px #ff0070;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  font-weight: 700;
   font-weight: bold;
   text-align: left;
   line-height: 0.82;
@@ -379,17 +377,13 @@ html {
 
   .main-content__pictures-section-pics {
     gap: 16px;
+    margin-bottom: 48px;
   }
 
   .footer {
     max-width: 768px;
     min-height: 1024px;
   }
-
-  .main-content__pictures-section-pics {
-    margin-bottom: 48px;
-  }
-
 }
 
 /* на 375px сайт будет перестраиваться на след ступень*/
