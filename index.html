@@ -44,22 +44,14 @@
           </li>
         </ul>
       </nav>
-      <div class="header__logo">
-        <div class="header__logo-container">
-          <h1 class="logo-decoration">no focus</h1>
-        </div>
-      </div>
-      <div class="header__main_text">
-        <div class="title-decor">
-          <p>
-            Что делать, когда не можешь делать ничего <br />
-            Или почему нам так сложно сконцентрироваться, особенно когда очень
-            надо
-          </p>
-        </div>
-      </div>
+      <h1 class="header__logo logo-decoration">no focus</h1>
+      <p class="header__main_text title-decor">
+        Что делать, когда не можешь делать ничего <br />
+        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+      </p>
       <div class="rec_pseudo" aria-hidden="true"></div>
     </header>
+    
     <main class="main-content">
       <section class="main-content__first-section">
         <h2 class="main-content__first-section_title main-grid-title">
@@ -98,12 +90,11 @@
           </p>
         </div>
       </section>
+
       <section class="main-content__column-section">
-        <div class="main-content__column-section_title">
-          <h2 class="column-section_title_swap main-grid-title">
-            Что снижает концентрацию внимания?
-          </h2>
-        </div>
+        <h2 class="main-content__column-section_title main-grid-title">
+          Что снижает концентрацию внимания?
+        </h2>
         <div class="main-content__column-section-card">
           <h3 class="title-decor title_margin">Многозадачность</h3>
           <p class="text-decor">
@@ -139,6 +130,7 @@
           </p>
         </div>
       </section>
+
       <section class="main-content__row-section">
         <h2 class="main-content__row-section_title main-grid-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
@@ -204,81 +196,67 @@
           </p>
         </div>
       </section>
+
       <section class="main-content__pictures-section">
-        <h3 class="title-decor main-content__pictures-section_title">
+        <h2 class="title-decor main-content__pictures-section_title">
           А можно в картинках?
-        </h3>
-
+        </h2>
         <div class="main-content__pictures-section-pics">
-          <div class="sunset__img-container">
-            <div class="pic-container-item">
-              <div class="image">
-                <img
-                  class="sunset__img"
-                  src="./images/sunset.png"
-                  alt="закат солнца"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="ice-cream__img-container">
-            <div class="pic-container-item">
-              <div class="image">
-                <img
-                  class="ice-cream__img"
-                  src="./images/ice-cream.png"
-                  alt="мороженое"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="tape__img-container">
-            <div class="pic-container-item">
-              <div class="image">
-                <img
-                  class="tape__img"
-                  src="./images/tape.png"
-                  alt="кассета"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="books__img-container">
-            <div class="pic-container-item">
-              <div class="image">
-                <img
-                  class="books__img"
-                  src="./images/books.png"
-                  alt="книги"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div class="street__img-container">
-            <div class="pic-container-item">
-              <div class="image">
-                <img
-                  class="street__img"
-                  src="./images/street.png"
-                  alt="улица"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
+          <ul class="sunset__img-container img-container">
+            <li class="pic-container-item">
+              <img
+                class="sunset__img img"
+                src="./images/sunset.png"
+                alt="закат солнца"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+          <ul class="ice-cream__img-container img-container">
+            <li class="pic-container-item">
+              <img
+                class="ice-cream__img img"
+                src="./images/ice-cream.png"
+                alt="мороженое"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+          <ul class="tape__img-container img-container">
+            <li class="pic-container-item">
+              <img
+                class="tape__img img"
+                src="./images/tape.png"
+                alt="кассета"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+          <ul class="books__img-container img-container">
+            <li class="pic-container-item">
+              <img
+                class="books__img img"
+                src="./images/books.png"
+                alt="книги"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+          <ul class="street__img-container img-container">
+            <li class="pic-container-item">
+              <img
+                class="street__img img"
+                src="./images/street.png"
+                alt="улица"
+                loading="lazy"
+              />
+            </li>
+          </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <p class="logo-decoration footer__logo-specific">focus</p>
+      <h1 class="logo-decoration footer__logo-specific">focus</h1>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

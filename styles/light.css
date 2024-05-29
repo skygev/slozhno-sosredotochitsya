@@ -19,7 +19,7 @@
   --rec_pseudo-color: #353430;
 }
 
-.theme_light .page {
+.theme_light.page {
   background-image: url(../images/cover-image-light.png);
 }
 
