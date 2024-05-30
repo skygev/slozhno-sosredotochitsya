@@ -11,7 +11,7 @@ html {
   color: var(--font-text-color);
   font-family: var(--main-font);
   background-color: var(--bg-color);
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--background-image);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -195,6 +195,10 @@ html {
   grid-column: 2;
 }
 
+.main-content__row-section_card {
+  grid-column: 2;
+}
+
 .main-content__column-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -206,10 +210,6 @@ html {
   grid-column-start: 1;
   grid-column-end: 4;
   padding-right: 68%;
-}
-
-.main-content__row-section_card { 
-  grid-column: 2;
 }
 
 .main-content__row-section {
