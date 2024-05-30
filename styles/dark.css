@@ -21,7 +21,7 @@
   --rec_pseudo-color: #ff0070;
 }
 
-.theme_dark.page {
+.page.theme_dark {
   background-image: url(../images/cover-image-dark.png);
 }
 

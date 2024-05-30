@@ -58,6 +58,11 @@ html {
   align-self: center;
 }
 
+.header__theme-menu-button_active {
+  border: var(--border-style);
+  pointer-events: none;
+}
+
 .header__theme-menu-button:hover {
   outline: 1px solid var(--button-hover-color);
   cursor: pointer;
@@ -186,6 +191,10 @@ html {
   grid-row-end: 3;
 }
 
+.main-content__first-section-card {
+  grid-column: 2;
+}
+
 .main-content__column-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -197,6 +206,10 @@ html {
   grid-column-start: 1;
   grid-column-end: 4;
   padding-right: 68%;
+}
+
+.main-content__row-section_card { 
+  grid-column: 2;
 }
 
 .main-content__row-section {
