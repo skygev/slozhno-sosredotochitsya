@@ -4,9 +4,8 @@
   переключая тему
 */
 
-.page.theme_dark {
+:root .theme_dark {
   /* Дублируем переменные для тёмной темы */
-  --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --bg-color: #000028;
   --font-text-color: #f1b2ce;
@@ -19,6 +18,10 @@
   --rec_pseudo-color: #ff0070;
   --logo-decoration-shadow-color: #ff0070;
   --link-shadow-color: #ff0070;
+}
+
+.theme_dark.page {
+  --background-image: url(../images/cover-image-dark.png);
 }
 /* Остальные стили */
 

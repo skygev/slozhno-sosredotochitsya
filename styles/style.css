@@ -1,8 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-html {
-  height: 100%;
-}
-
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: flex; /* выравнивание страницы по центру */
@@ -315,6 +311,7 @@ html {
 .text-decor {
   line-height: 23.4px;
   letter-spacing: 1.2px;
+  color: var(--font-text-color);
 }
 
 /* FOOTER section*/
