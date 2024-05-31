@@ -399,10 +399,10 @@
 
 /* на 375px сайт будет перестраиваться на след ступень*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .page {
-    max-width: 375px;
-    min-height: 668px;
+/*     max-width: 375px;
+ */    min-height: 668px;
   }
 
   .header {
