@@ -4,8 +4,7 @@
   переключая тему
 */
 
-:root.theme-light {
-  /* Переменные светлой темы */
+.theme_light.page {
   --background-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
   --bg-color: #353430;
@@ -15,23 +14,10 @@
   --main-grid-title-decor-color: #353430;
   --header__theme-menu-button-color: #353430;
   --rec_pseudo-color: #353430;
-  --button-hover-color: 353430;
+  --button-hover-color: #353430;
   --logo-decoration-shadow-color: #ff0070;
-  --logo-decoration-shadow-color-light: #FF8DCB;
+  --logo-decoration-shadow-color-light: #ff8dcb;
   --link-shadow-color: #f1b2ce;
-}
-
-.page.theme_light {
-  --background-image: url(../images/cover-image-light.png)
-}
-
-/* Остальные стили */
-.theme_light .rec_pseudo::before {
-  visibility: hidden;
-}
-
-.theme_light .rec_pseudo::after {
-  visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -48,7 +34,7 @@
     --rec_pseudo-color: #353430;
     --button-hover-color: #353430;
     --logo-decoration-shadow-color: #ff0070;
-    --logo-decoration-shadow-color-light: #FF8DCB;
+    --logo-decoration-shadow-color-light: #ff8dcb;
     --link-shadow-color: #f1b2ce;
   }
 
@@ -59,4 +45,13 @@
   .rec_pseudo::after {
     visibility: hidden;
   }
+}
+
+/* Остальные стили */
+.theme_light .rec_pseudo::before {
+  visibility: hidden;
+}
+
+.theme_light .rec_pseudo::after {
+  visibility: hidden;
 }
