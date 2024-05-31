@@ -21,6 +21,10 @@
   --link-shadow-color: #f1b2ce;
 }
 
+.page.theme_light {
+  background-image: url(../images/cover-image-light.png)
+}
+
 /* Остальные стили */
 .theme_light .rec_pseudo::before {
   visibility: hidden;
