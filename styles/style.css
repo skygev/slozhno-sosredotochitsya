@@ -363,6 +363,7 @@ html {
 
   .logo-decoration {
     text-shadow: 4px 4px 0px var(--logo-decoration-shadow-color-light);
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .header {
@@ -377,10 +378,6 @@ html {
   .header__theme-menu {
     align-items: center;
     justify-content: flex-end;
-  }
-
-  .logo-decoration {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .main-content__column-section {
