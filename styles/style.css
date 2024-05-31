@@ -105,7 +105,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--bg-color);
+  color: var(--font-text-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -302,7 +302,7 @@
 
 .main-grid-title-decor {
   background-color: var(--accent-color);
-  color: var(--bg-color);
+  color: var(--font-text-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
