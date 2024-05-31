@@ -6,7 +6,7 @@
 
 :root .theme_light {
   --accent-color: #ff8dcb;
-  --bg-color: #353430;
+  --bg-color: #fff1f7;
   --font-text-color: #353430;
   --font-headers-color: #353430;
   --font-header-color: #ffc2e6;
@@ -36,7 +36,7 @@
     /* Дублируем переменные светлой темы */
     --background-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
-    --bg-color: #353430;
+    --bg-color: #fff1f7;
     --font-text-color: #353430;
     --font-headers-color: #353430;
     --font-header-color: #ffc2e6;
