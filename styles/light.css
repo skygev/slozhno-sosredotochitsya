@@ -20,6 +20,14 @@
   --link-shadow-color: #f1b2ce;
 }
 
+.theme_light .rec_pseudo::before {
+  visibility: hidden;
+}
+
+.theme_light .rec_pseudo::after {
+  visibility: hidden;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */
@@ -45,13 +53,4 @@
   .rec_pseudo::after {
     visibility: hidden;
   }
-}
-
-/* Остальные стили */
-.theme_light .rec_pseudo::before {
-  visibility: hidden;
-}
-
-.theme_light .rec_pseudo::after {
-  visibility: hidden;
 }
