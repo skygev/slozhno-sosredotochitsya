@@ -80,7 +80,7 @@ html {
 
 .logo-decoration {
   color: var(--font-header-color);
-  text-shadow: 4px 4px 0px #ff0070;
+  text-shadow: 4px 4px 0px var(--logo-decoration-shadow-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: bold;
   text-align: left;
@@ -276,7 +276,7 @@ html {
 
 .link-decor {
   text-decoration: none;
-  text-shadow: 2px 2px 0px #ff0070;
+  text-shadow: 2px 2px 0px var(--link-shadow-color);
   outline: 0 solid var(--accent-color);
   padding: 0 2px 4px;
 }
@@ -361,6 +361,10 @@ html {
     min-height: 1024px;
   }
 
+  .logo-decoration {
+    text-shadow: 4px 4px 0px var(--logo-decoration-shadow-color-light);
+  }
+
   .header {
     max-width: 768px;
     min-height: 1024px;
@@ -412,6 +416,10 @@ html {
     min-height: 668px;
     padding: 10px;
     margin-bottom: 40px;
+  }
+
+  .logo-decoration {
+    text-shadow: 4px 4px 0px var(--logo-decoration-shadow-color-light);
   }
 
   .header__theme-menu {

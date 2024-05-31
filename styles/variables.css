@@ -4,6 +4,7 @@
 */
 
 :root {
+  /* Переменные тёмной темы */
   --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --bg-color: #000028;
@@ -15,4 +16,6 @@
   --main-grid-title-decor-color: #ff0070;
   --header__theme-menu-button-color: #ff0070;
   --rec_pseudo-color: #ff0070;
+  --logo-decoration-shadow-color: #ff0070;
+  --link-shadow-color: #ff0070;
 }

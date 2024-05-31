@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {
+.page.theme_dark {
   /* Дублируем переменные для тёмной темы */
   --background-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
@@ -17,23 +17,11 @@
   --main-grid-title-decor-color: #ff0070;
   --header__theme-menu-button-color: #ff0070;
   --rec_pseudo-color: #ff0070;
+  --logo-decoration-shadow-color: #ff0070;
+  --link-shadow-color: #ff0070;
 }
 
 /* Остальные стили */ 
-
-.page.theme_dark {
-  --background-image: url(../images/cover-image-dark.png);
-  --accent-color: #ff0070;
-  --bg-color: #000028;
-  --font-text-color: #f1b2ce;
-  --font-headers-color: #3a3a49;
-  --font-header-color: #db00ff;
-  --main-font: "IBM Plex mono", sans-serif;
-  --button-hover-color: #ff0070;
-  --main-grid-title-decor-color: #ff0070;
-  --header__theme-menu-button-color: #ff0070;
-  --rec_pseudo-color: #ff0070;
-}
 
 .theme_dark .rec_pseudo::before {
   visibility: visible;

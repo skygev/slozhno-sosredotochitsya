@@ -16,6 +16,9 @@
   --header__theme-menu-button-color: #353430;
   --rec_pseudo-color: #353430;
   --button-hover-color: 353430;
+  --logo-decoration-shadow-color: #ff0070;
+  --logo-decoration-shadow-color-light: #FF8DCB;
+  --link-shadow-color: #f1b2ce;
 }
 
 /* Остальные стили */
@@ -40,6 +43,9 @@
     --header__theme-menu-button-color: #353430;
     --rec_pseudo-color: #353430;
     --button-hover-color: #353430;
+    --logo-decoration-shadow-color: #ff0070;
+    --logo-decoration-shadow-color-light: #FF8DCB;
+    --link-shadow-color: #f1b2ce;
   }
 
   .rec_pseudo::before {
@@ -50,21 +56,3 @@
     visibility: hidden;
   }
 }
-
-.page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  --background-image: url(../images/cover-image-light.png);
-  --accent-color: #ff8dcb;
-  --bg-color: #353430;
-  --font-text-color: #353430;
-  --font-headers-color: #353430;
-  --font-header-color: #ffc2e6;
-  --main-grid-title-decor-color: #353430;
-  --header__theme-menu-button-color: #353430;
-  --rec_pseudo-color: #353430;
-  --button-hover-color: 353430;
-}
-/* Остальные стили */
