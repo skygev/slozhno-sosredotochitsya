@@ -8,8 +8,10 @@
   --accent-color: #ff8dcb;
   --bg-color: #fff1f7;
   --font-text-color: #353430;
+  --font-logo-color: #FFC2E6;
   --font-headers-color: #353430;
-  --font-header-color: #ffc2e6;
+  --font-header-color: #353430;
+  --font-text-article-color: #353430;
   --main-grid-title-decor-color: #353430;
   --header__theme-menu-button-color: #353430;
   --rec_pseudo-color: #353430;
@@ -38,8 +40,10 @@
     --accent-color: #ff8dcb;
     --bg-color: #fff1f7;
     --font-text-color: #353430;
+    --font-logo-color: #FFC2E6;
     --font-headers-color: #353430;
-    --font-header-color: #ffc2e6;
+    --font-header-color: #353430;
+    --font-text-article-color: #353430;
     --main-grid-title-decor-color: #353430;
     --header__theme-menu-button-color: #353430;
     --rec_pseudo-color: #353430;

@@ -23,8 +23,8 @@
   padding: 20px;
   grid-template-rows: 1fr min-content 1fr;
   margin-block-end: 60px;
-  width: inherit;
   height: 100vh;
+  width: inherit;
 }
 
 .header__theme-menu {
@@ -58,6 +58,10 @@
   outline: 1px solid var(--border-style);
 }
 
+.header__theme-menu-button_active:visited {
+  outline: 1px solid var(--border-style);
+}
+
 .header__theme-menu-button:hover {
   outline: 1px solid var(--button-hover-color);
   cursor: pointer;
@@ -74,7 +78,7 @@
 }
 
 .logo-decoration {
-  color: var(--font-header-color);
+  color: var(--font-logo-color);
   text-shadow: 4px 4px 0px var(--logo-decoration-shadow-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: bold;
@@ -312,7 +316,7 @@
 .text-decor {
   line-height: 23.4px;
   letter-spacing: 1.2px;
-  color: var(--font-text-color);
+  color: var(--font-text-article-color);
 }
 
 /* FOOTER section*/
@@ -406,7 +410,7 @@
   }
 
   .header {
-    max-width: 375px;
+    /* max-width: 375px; */
     min-height: 668px;
     padding: 10px;
     margin-bottom: 40px;
